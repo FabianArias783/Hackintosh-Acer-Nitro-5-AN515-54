@@ -1,7 +1,5 @@
 [🇲🇽 Ver este README en español](README.md)
 
-[🇲🇽 Ver este README en español](README.md)
-
 # 🖥️ Hackintosh – Intel i5-9300H Configuration (Laptop)
 
 This repository documents my macOS installation (Ventura / Sonoma / Sequoia) on a laptop with a 9th-gen Intel CPU using **OpenCore 1.0.6**.  
