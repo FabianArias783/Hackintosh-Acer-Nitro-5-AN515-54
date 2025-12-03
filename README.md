@@ -1,3 +1,63 @@
+# 🖥️ Hackintosh – Configuración Intel i5-9300H (Laptop)
+
+Este repositorio documenta mi instalación de macOS (Ventura / Sonoma / Sequoia) en una laptop con CPU Intel 9ª generación, usando **OpenCore 1.0.6**.  
+Aquí encontrarás mi carpeta EFI, notas de instalación, configuración de kexts y ajustes necesarios para mantener el sistema estable.
+
+---
+
+## 📌 Tabla de contenido
+1. [Descripción del proyecto](#descripción-del-proyecto)  
+2. [Especificaciones del hardware](#especificaciones-del-hardware)  
+3. [Versiones de macOS](#versiones-de-macos)  
+4. [Estructura del repositorio](#estructura-del-repositorio)  
+5. [Kexts utilizados](#kexts-utilizados)  
+6. [Configuraciones de OpenCore](#configuraciones-de-opencore)  
+7. [Compatibilidad y funcionamiento](#compatibilidad-y-funcionamiento)  
+8. [Problemas conocidos](#problemas-conocidos)  
+9. [Notas importantes](#notas-importantes)  
+10. [Agradecimientos](#agradecimientos)
+
+---
+
+## 📝 Descripción del proyecto
+Este proyecto reúne todos los archivos y configuraciones necesarios para ejecutar macOS en una laptop con procesador Intel Coffee Lake (i5-9300H).  
+El objetivo es una instalación **limpia, estable, actualizable y documentada**, siguiendo las guías de Dortania para OpenCore.
+
+Incluye:
+- Carpeta completa **EFI**
+- `config.plist` ajustado y ordenado
+- USB mapping
+- Kexts actualizados
+- Notas de instalación y troubleshooting
+
+---
+
+## 🧩 Especificaciones del hardware
+
+| Componente | Modelo |
+|-----------|--------|
+| **CPU** | Intel Core i5-9300H @ 2.40 GHz (Coffee Lake) |
+| **iGPU** | Intel UHD Graphics 630 — **Compatible** |
+| **dGPU** | NVIDIA GTX 1650 — **NO compatible con macOS** |
+| **RAM** | *(Agregar tu RAM)* |
+| **Almacenamiento** | *(Agregar tu SSD NVMe o SATA)* |
+| **Audio** | *(Chip Realtek / añadir modelo si lo tienes)* |
+| **Ethernet / WiFi / BT** | *(Modelos exactos si los conoces)* |
+| **SMBIOS recomendado** | MacBookPro15,2 |
+
+> La GTX 1650 queda deshabilitada; macOS usa exclusivamente la Intel UHD 630.
+
+---
+
+## 🍏 Versiones de macOS
+Probado y funcional en:
+
+- **macOS Ventura (13.x)**  
+- **macOS Sonoma (14.x)**  
+- **macOS Sequoia (15.x)**  
+
+Bootloader:
+- **OpenCore 1.0.6**
 
 ---
 
