@@ -1,3 +1,5 @@
+[🇺🇸 View this README in English](README_en.md)
+
 # 🖥️ Hackintosh – Configuración Intel i5-9300H (Laptop)
 
 Este repositorio documenta mi instalación de macOS (Ventura / Sonoma / Sequoia) en una laptop con CPU Intel 9ª generación, usando **OpenCore 1.0.6**.  
@@ -55,6 +57,11 @@ Probado y funcional en:
 - **macOS Ventura (13.x)**  
 - **macOS Sonoma (14.x)**  
 - **macOS Sequoia (15.x)**  
+
+> ### ⚠️ Compatibilidad de WiFi por versión de macOS
+> - **Ventura:** El WiFi Intel funciona con *AirportItlwm* sin problemas.  
+> - **Sonoma y Sequoia:** No hay kext funcional durante la instalación. Solo funciona **Ethernet** al inicio.  
+> - Después de instalar, se puede activar WiFi usando la app **Heliport**.
 
 Bootloader:
 - **OpenCore 1.0.6**
